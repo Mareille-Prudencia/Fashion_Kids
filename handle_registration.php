@@ -22,7 +22,7 @@ if (isset($_POST["register"])) {
 
     if ($confirmPass != $password) {
         $conPassErr = "Passwords do not Match!";
-        echo $confirmPass;
+        echo $conPassErr;
     }
 
 
